@@ -1,0 +1,21 @@
+script shows performace output of facebook hiphop server, in a top like manner
+
+usage hiphoptop.py --server <serveraddress> --port <port of admin interface of hiphopserver>
+
+you have to have stat enabled in your hiphop config
+Stats = true
+Stats {
+    Web = true
+}
+
+outputs stats of last ten minutes of top 10 urls with
+total nr of hits on url
+nr of 500 returned
+nr of 200 returned
+cpu usage per url
+name of url
+
+you can sort on the different colums by pressing the first letter of column name
+
+TODO
+somenice errorhandling would be niec, show more tan 10 depending on screen heigth
