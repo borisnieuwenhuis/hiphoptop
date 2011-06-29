@@ -1,4 +1,4 @@
-script shows performace output of facebook hiphop server, in a top like manner
+scripti  shows performace output of facebook hiphop server, in a top like manner
 
 usage hiphoptop.py --server <serveraddress> --port <port of admin interface of hiphopserver>
 
